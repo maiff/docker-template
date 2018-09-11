@@ -1,0 +1,11 @@
+{
+  "prompts": {
+    "description": {
+      "type": "input",
+      "required": false,
+      "message": "Project description",
+      "default": "A react project"
+    }
+  }
+  
+}
