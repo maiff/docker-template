@@ -1,10 +1,17 @@
 {
   "prompts": {
-    "description": {
-      "type": "input",
-      "required": false,
-      "message": "Project description",
-      "default": "A react project"
+    
+  },
+  "functions": {
+    "test": {
+      "prompts": {
+        "name": {
+          "type": "input",
+          "required": true,
+          "message": "Project name"
+        }
+      },
+      "promptsFile": "test-temp.txt"
     }
   }
   
