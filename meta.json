@@ -11,7 +11,8 @@
           "message": "Project name"
         }
       },
-      "promptsFile": "test-temp.txt"
+      "promptsFile": "test-temp.txt",
+      "message": "use mobx?"
     }
   }
   
