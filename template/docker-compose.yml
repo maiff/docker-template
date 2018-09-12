@@ -1,0 +1,8 @@
+version: '3'
+services:
+  choose:
+    image: "maiff/%%{ name }%%"
+    ports:
+      - "{{ port }}:9001"
+    # volumes:
+    #   - /home/ubuntu/log/hot.log:/log/hot.log

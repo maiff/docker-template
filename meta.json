@@ -4,9 +4,15 @@
       "type": "input",
       "required": true,
       "message": "Project name",
-      "promptsFile": "./.circleci/config.yml",
+      "promptsFile": "['./.circleci/config.yml', 'docker-compose']",
       "expb": "%%{",
       "expe": "}%%"
+    },
+    "port": {
+      "type": "input",
+      "required": true,
+      "message": "expose port",
+      "promptsFile": "docker-compose"
     }
   }
   
