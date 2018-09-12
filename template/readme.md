@@ -1,0 +1,4 @@
+- 注意cronfile的时间
+- 注意supervisor命令
+- 注意dockerfile的修改
+- 注意dockerfile的镜像

@@ -1,0 +1,1 @@
+*/1 * * * * /usr/local/bin/supervisorctl -u maiff -p 123  restart all
