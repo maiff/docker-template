@@ -6,6 +6,7 @@
       "message": "Project name",
       "promptsFile": "test-temp.txt"
     }
-  }
+  },
+  "functions": {}
   
 }
