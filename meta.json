@@ -1,18 +1,10 @@
 {
   "prompts": {
-    
-  },
-  "functions": {
-    "test": {
-      "prompts": {
-        "name": {
-          "type": "input",
-          "required": true,
-          "message": "Project name"
-        }
-      },
-      "promptsFile": "test-temp.txt",
-      "message": "use mobx?"
+    "name": {
+      "type": "input",
+      "required": true,
+      "message": "Project name",
+      "promptsFile": "test-temp.txt"
     }
   }
   
