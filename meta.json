@@ -4,7 +4,7 @@
       "type": "input",
       "required": true,
       "message": "Project name",
-      "promptsFile": "[\"./.circleci/config.yml\", \"docker-compose\"]",
+      "promptsFile": "[\"./.circleci/config.yml\", \"docker-compose.yml\"]",
       "expb": "%%{",
       "expe": "}%%"
     },
