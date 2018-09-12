@@ -4,7 +4,9 @@
       "type": "input",
       "required": true,
       "message": "Project name",
-      "promptsFile": "./.circleci/config.yml"
+      "promptsFile": "./.circleci/config.yml",
+      "expb": "%%{",
+      "expe": "}%%"
     }
   }
   

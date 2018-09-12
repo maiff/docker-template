@@ -60,9 +60,9 @@ jobs:
       #  - run: cp -r ./getPlaylist.py ./test
        - run: docker login --username=maiff -p 2101239xwt 
 
-       - run: docker build -t maiff/{{ name }}:latest -f Dockerfile .
+       - run: docker build -t maiff/%%{ name }%%:latest -f Dockerfile .
 
-       - run: docker push maiff/{{ name }}:latest
+       - run: docker push maiff/%%{ name }%%:latest
 workflows:
   version: 2
 
